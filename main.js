@@ -1,5 +1,3 @@
-
-
 axios.get("https://api.punkapi.com/v2/beers?page=2&per_page=80"
 ).then(reponse => {
     let data = reponse.data
