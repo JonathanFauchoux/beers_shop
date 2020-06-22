@@ -22,6 +22,7 @@
     }
 
 }
+
 .card:nth-child(odd){
     background-color: rgb(203, 253, 222);
 }
@@ -51,7 +52,16 @@ h1{
     .card{
         width: 320px;
     }
-
+}
+@media only screen and (max-width: 750px) and (min-width: 450px){
+    .card{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 750px){
+    .card{
+        width: 40%;
+    }
 }
 
 .title{
