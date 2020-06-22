@@ -6,13 +6,21 @@
 }
 .sortie{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     margin: 0;
     width: 100%;
   
+}
+@media only screen and (max-width: 450px){
+    .sortie{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
 }
 .card:nth-child(odd){
     background-color: rgb(203, 253, 222);
@@ -26,11 +34,11 @@ h1{
 }
 .card{
 
-    width: 320Px;
-    height: auto;
+    width: 25%;
+    height: 650px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     margin: 1rem 1rem;
@@ -38,6 +46,12 @@ h1{
 
     border: 1px solid rgb(5, 143, 58);
     border-radius: 8px;
+}
+@media only screen and (max-width: 450px){
+    .card{
+        width: 320px;
+    }
+
 }
 
 .title{
