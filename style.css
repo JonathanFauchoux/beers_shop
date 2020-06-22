@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sortie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+  
+}
+.card:nth-child(odd){
+    background-color: rgb(203, 253, 222);
+}
+h1{
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    background-color: #212121;
+    color: rgb(203, 253, 222);
+}
+.card{
+
+    width: 320Px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem 1rem;
+    padding: 1rem;
+
+    border: 1px solid rgb(5, 143, 58);
+    border-radius: 8px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem .2rem;
+
+    
+}
+.title>h2{
+    font-size: 1.3rem;
+    border-bottom: 1px solid #212121;
+    color: rgb(5, 143, 58);
+    text-align: center;
+    
+}
+.title>span{
+    font-style: italic;
+    font-weight: 900;
+    font-size: .75rem;
+    padding: .2rem 1rem 0 1rem;
+}
+content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+content>p{
+    padding: 1rem;
+}
+.tagline{
+    font-weight: 600;
+    font-size: 1rem;
+}
+img{
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    
+}
